@@ -1,0 +1,96 @@
+
+
+<html>
+
+<body>
+<h1 style="display:block;
+    font-size:2em;
+    margin-top:0.67em;
+    margin-bottom:0.67em;
+    margin-left:270;
+    margin-right:0;
+    font-weight:bold;"> Audit Read Page </h1>
+
+<div  style=" width:200px; " align="center">
+<form action="read.php" method="post">
+<fieldset>
+<legend> Display All Data:  </legend>
+<p style="padding: 0.08cm 1cm 0.00125cm 1cm;">
+Click here:
+<input type="submit" />
+</p>
+</fieldset>
+</form>
+</div>	
+
+
+
+<div style=" width:400px;  " align="center">
+<form action="input.php" method="post">
+	<fieldset style="width:700px">
+	<legend>Add a New Audit record </legend>
+    
+	<p>Audit ID:
+    <input type="text" name="a_i" size="30" value="" /> 
+	</p>
+	
+	<p>Audit Comment:
+    <input type="text" name="a_c" size="30" value="" /> 
+	</p>
+
+	<p>
+		<input type="submit" name="submit" value="send" />
+	</p>
+	</fieldset>
+</form>
+</div>
+
+<div style=" width:400px;  " align="center">
+<form action="edit.php" method="post">
+	<fieldset style="width:700px">
+	<legend>Edit a Audit record </legend>
+    
+	<p>Audit ID:
+    <input type="text" name="s_i" size="30" value="" /> 
+	</p>
+	
+	<p>Audit Comment:
+    <input type="text" name="i_i" size="30" value="" /> 
+	</p>
+	
+	<p>
+		<input type="submit" name="submit" value="send" />
+	</p>
+	</fieldset>
+</form>
+</div>
+
+<div style=" width:400px;  " align="center">
+<form action="delete.php" method="post">
+	<fieldset style="width:700px">
+	<legend>Delete a Audit record </legend>
+    
+	<p>Audit ID:
+    <input type="text" name="st_i" size="30" value="" /> 
+	</p>
+	
+
+	
+
+	<p>
+		<input type="submit" name="submit" value="send" />
+	</p>
+	</fieldset>
+</form>
+</div>
+
+<div>
+<ul style="list-style-type:none;">
+<li style=" display:inline; "><a style = "border-right:solid 10px #f4f4f4;" href="logout.php" > Logout </a></li>
+<li style=" display:inline; "><a style = "border-right:solid 10px #f4f4f4;" href="user.php"> User Data <a/></li>
+
+</ul>
+</div>
+
+</body>
+</html>

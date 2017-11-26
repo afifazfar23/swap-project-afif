@@ -1,0 +1,3 @@
+GRANT ALL PRIVILEGES ON auditor.adb TO 'auditor'@'localhost' IDENTIFIED BY 'auditor' ;
+
+GRANT SELECT ON auditor.udb TO 'dbreader'@'localhost' IDENTIFIED BY 'dbpw' ;
